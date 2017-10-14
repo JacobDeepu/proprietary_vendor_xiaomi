@@ -1488,6 +1488,7 @@ PRODUCT_PACKAGES += \
     CNEService \
     QtiTetherService \
     com.qualcomm.location \
+    dpmserviceapp \
     qcrilmsgtunnel \
     colorservice \
     ims \
