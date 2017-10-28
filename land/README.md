@@ -1,1 +1,1 @@
-Vendor blobs repository for Xiaomi Land (WIP)
+Vendor blobs repository for Xiaomi Redmi 3S (Land)
