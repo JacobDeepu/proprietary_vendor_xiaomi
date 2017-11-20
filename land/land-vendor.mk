@@ -264,7 +264,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/xiaomi/land/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/xiaomi/land/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
-    vendor/xiaomi/land/proprietary/vendor/etc/audio_output_policy.conf:system/vendor/etc/audio_output_policy.conf \
     vendor/xiaomi/land/proprietary/vendor/etc/diracmobile.config:system/vendor/etc/diracmobile.config \
     vendor/xiaomi/land/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
     vendor/xiaomi/land/proprietary/vendor/framework/qti-vzw-ims-internal.jar:system/vendor/framework/qti-vzw-ims-internal.jar \
@@ -1073,6 +1072,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/liblowi_wifihal_nl.so:system/vendor/lib/liblowi_wifihal_nl.so \
     vendor/xiaomi/land/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libmdmdetect.so:system/vendor/lib/libmdmdetect.so \
+    vendor/xiaomi/land/proprietary/vendor/lib/libmm-color-convertor.so:system/vendor/lib/libmm-color-convertor.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libmm-disp-apis.so:system/vendor/lib/libmm-disp-apis.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libmmQSM.so:system/vendor/lib/libmmQSM.so \
