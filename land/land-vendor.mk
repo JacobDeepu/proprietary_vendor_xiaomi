@@ -133,6 +133,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/xiaomi/land/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/xiaomi/land/proprietary/lib/hw/fingerprint.msm8937.so:system/lib/hw/fingerprint.msm8937.so \
+    vendor/xiaomi/land/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
     vendor/xiaomi/land/proprietary/lib/libRecoFace.so:system/lib/libRecoFace.so \
     vendor/xiaomi/land/proprietary/lib/libcom_fingerprints_service.so:system/lib/libcom_fingerprints_service.so \
     vendor/xiaomi/land/proprietary/lib/libmorpho_memory_allocator.so:system/lib/libmorpho_memory_allocator.so \
