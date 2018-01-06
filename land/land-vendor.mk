@@ -81,8 +81,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/etc/camera/sunny_ov5670_f5670bq_chromatix.xml:system/etc/camera/sunny_ov5670_f5670bq_chromatix.xml \
     vendor/xiaomi/land/proprietary/etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml:system/etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml \
     vendor/xiaomi/land/proprietary/etc/camera/sunny_s5k3l8_f3l8yam_new_chromatix.xml:system/etc/camera/sunny_s5k3l8_f3l8yam_new_chromatix.xml \
-    vendor/xiaomi/land/proprietary/vendor/etc/drc/drc_cfg_5.1.txt:system/vendor/etc/drc/drc_cfg_5.1.txt \
-    vendor/xiaomi/land/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:system/vendor/etc/drc/drc_cfg_AZ.txt \
     vendor/xiaomi/land/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
     vendor/xiaomi/land/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
     vendor/xiaomi/land/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
@@ -129,8 +127,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/etc/sound_trigger_mixer_paths_wcd9306.xml:system/vendor/etc/sound_trigger_mixer_paths_wcd9306.xml \
     vendor/xiaomi/land/proprietary/vendor/etc/sound_trigger_mixer_paths_wcd9330.xml:system/vendor/etc/sound_trigger_mixer_paths_wcd9330.xml \
     vendor/xiaomi/land/proprietary/vendor/etc/sound_trigger_mixer_paths_wcd9335.xml:system/vendor/etc/sound_trigger_mixer_paths_wcd9335.xml \
-    vendor/xiaomi/land/proprietary/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
-    vendor/xiaomi/land/proprietary/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/xiaomi/land/proprietary/lib/hw/consumerir.default.so:system/lib/hw/consumerir.default.so \
     vendor/xiaomi/land/proprietary/lib/hw/fingerprint.msm8937.so:system/lib/hw/fingerprint.msm8937.so \
     vendor/xiaomi/land/proprietary/lib/libDiracAPI_SHARED.so:system/lib/libDiracAPI_SHARED.so \
