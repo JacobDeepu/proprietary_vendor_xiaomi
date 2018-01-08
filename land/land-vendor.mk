@@ -1683,7 +1683,6 @@ PRODUCT_PACKAGES += \
     imssettings \
     radioconfig \
     com.qualcomm.location \
-    dpmserviceapp \
     qcrilmsgtunnel \
     TimeService \
     colorservice \
