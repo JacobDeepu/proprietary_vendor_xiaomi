@@ -1757,7 +1757,6 @@ PRODUCT_PACKAGES += \
     libthermalclient \
     libtime_genoff \
     QtiTelephonyService \
-    SimSettings \
     datastatusnotification \
     ims \
     imssettings \
