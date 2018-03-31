@@ -1020,8 +1020,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
-    vendor/xiaomi/land/proprietary/etc/permissions/radioconfig.xml:system/etc/permissions/radioconfig.xml \
-    vendor/xiaomi/land/proprietary/etc/permissions/radioconfiginterface.xml:system/etc/permissions/radioconfiginterface.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/xiaomi/land/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/xiaomi/land/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
@@ -1761,7 +1759,6 @@ PRODUCT_PACKAGES += \
     datastatusnotification \
     ims \
     imssettings \
-    radioconfig \
     CNEService \
     com.qualcomm.location \
     dpmserviceapp \
