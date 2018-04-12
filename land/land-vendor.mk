@@ -1008,6 +1008,22 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/xiaomi/land/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/xiaomi/land/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
+    vendor/xiaomi/land/proprietary/vendor/firmware/cppf.b00:system/vendor/firmware/cppf.b00 \
+    vendor/xiaomi/land/proprietary/vendor/firmware/cppf.b01:system/vendor/firmware/cppf.b01 \
+    vendor/xiaomi/land/proprietary/vendor/firmware/cppf.b02:system/vendor/firmware/cppf.b02 \
+    vendor/xiaomi/land/proprietary/vendor/firmware/cppf.b03:system/vendor/firmware/cppf.b03 \
+    vendor/xiaomi/land/proprietary/vendor/firmware/cppf.b04:system/vendor/firmware/cppf.b04 \
+    vendor/xiaomi/land/proprietary/vendor/firmware/cppf.b05:system/vendor/firmware/cppf.b05 \
+    vendor/xiaomi/land/proprietary/vendor/firmware/cppf.b06:system/vendor/firmware/cppf.b06 \
+    vendor/xiaomi/land/proprietary/vendor/firmware/cppf.mdt:system/vendor/firmware/cppf.mdt \
+    vendor/xiaomi/land/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
+    vendor/xiaomi/land/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
+    vendor/xiaomi/land/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
+    vendor/xiaomi/land/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
+    vendor/xiaomi/land/proprietary/vendor/firmware/widevine.b04:system/vendor/firmware/widevine.b04 \
+    vendor/xiaomi/land/proprietary/vendor/firmware/widevine.b05:system/vendor/firmware/widevine.b05 \
+    vendor/xiaomi/land/proprietary/vendor/firmware/widevine.b06:system/vendor/firmware/widevine.b06 \
+    vendor/xiaomi/land/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
     vendor/xiaomi/land/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/xiaomi/land/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
