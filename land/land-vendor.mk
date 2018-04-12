@@ -1044,7 +1044,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/lib/libdpmframework.so:system/lib/libdpmframework.so \
     vendor/xiaomi/land/proprietary/lib/libdpmnsrm.so:system/lib/libdpmnsrm.so \
     vendor/xiaomi/land/proprietary/lib/libdpmtcm.so:system/lib/libdpmtcm.so \
-    vendor/xiaomi/land/proprietary/lib/libhbtpjni.so:system/lib/libhbtpjni.so \
     vendor/xiaomi/land/proprietary/lib/libimscamera_jni.so:system/lib/libimscamera_jni.so \
     vendor/xiaomi/land/proprietary/lib/libimsmedia_jni.so:system/lib/libimsmedia_jni.so \
     vendor/xiaomi/land/proprietary/lib/liblocationservice_jni.so:system/lib/liblocationservice_jni.so \
@@ -1066,12 +1065,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/lib/libxt_native.so:system/lib/libxt_native.so \
     vendor/xiaomi/land/proprietary/lib/vendor.display.color@1.0.so:system/lib/vendor.display.color@1.0.so \
     vendor/xiaomi/land/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
-    vendor/xiaomi/land/proprietary/lib/vendor.qti.esepowermanager@1.0.so:system/lib/vendor.qti.esepowermanager@1.0.so \
     vendor/xiaomi/land/proprietary/lib/vendor.qti.gnss@1.0.so:system/lib/vendor.qti.gnss@1.0.so \
     vendor/xiaomi/land/proprietary/lib/vendor.qti.hardware.data.latency@1.0.so:system/lib/vendor.qti.hardware.data.latency@1.0.so \
-    vendor/xiaomi/land/proprietary/lib/vendor.qti.hardware.improvetouch.blobmanager@1.0.so:system/lib/vendor.qti.hardware.improvetouch.blobmanager@1.0.so \
-    vendor/xiaomi/land/proprietary/lib/vendor.qti.hardware.improvetouch.gesturemanager@1.0.so:system/lib/vendor.qti.hardware.improvetouch.gesturemanager@1.0.so \
-    vendor/xiaomi/land/proprietary/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so:system/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so \
     vendor/xiaomi/land/proprietary/lib/vendor.qti.hardware.iop@1.0.so:system/lib/vendor.qti.hardware.iop@1.0.so \
     vendor/xiaomi/land/proprietary/lib/vendor.qti.hardware.iop@2.0.so:system/lib/vendor.qti.hardware.iop@2.0.so \
     vendor/xiaomi/land/proprietary/lib/vendor.qti.hardware.perf@1.0.so:system/lib/vendor.qti.hardware.perf@1.0.so \
@@ -1100,7 +1095,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/lib64/libdpmframework.so:system/lib64/libdpmframework.so \
     vendor/xiaomi/land/proprietary/lib64/libdpmnsrm.so:system/lib64/libdpmnsrm.so \
     vendor/xiaomi/land/proprietary/lib64/libdpmtcm.so:system/lib64/libdpmtcm.so \
-    vendor/xiaomi/land/proprietary/lib64/libhbtpjni.so:system/lib64/libhbtpjni.so \
     vendor/xiaomi/land/proprietary/lib64/libimscamera_jni.so:system/lib64/libimscamera_jni.so \
     vendor/xiaomi/land/proprietary/lib64/libimsmedia_jni.so:system/lib64/libimsmedia_jni.so \
     vendor/xiaomi/land/proprietary/lib64/liblocationservice_jni.so:system/lib64/liblocationservice_jni.so \
@@ -1121,12 +1115,8 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/lib64/libxt_native.so:system/lib64/libxt_native.so \
     vendor/xiaomi/land/proprietary/lib64/vendor.display.color@1.0.so:system/lib64/vendor.display.color@1.0.so \
     vendor/xiaomi/land/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
-    vendor/xiaomi/land/proprietary/lib64/vendor.qti.esepowermanager@1.0.so:system/lib64/vendor.qti.esepowermanager@1.0.so \
     vendor/xiaomi/land/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
     vendor/xiaomi/land/proprietary/lib64/vendor.qti.hardware.data.latency@1.0.so:system/lib64/vendor.qti.hardware.data.latency@1.0.so \
-    vendor/xiaomi/land/proprietary/lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0.so:system/lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0.so \
-    vendor/xiaomi/land/proprietary/lib64/vendor.qti.hardware.improvetouch.gesturemanager@1.0.so:system/lib64/vendor.qti.hardware.improvetouch.gesturemanager@1.0.so \
-    vendor/xiaomi/land/proprietary/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so:system/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0.so \
     vendor/xiaomi/land/proprietary/lib64/vendor.qti.hardware.iop@1.0.so:system/lib64/vendor.qti.hardware.iop@1.0.so \
     vendor/xiaomi/land/proprietary/lib64/vendor.qti.hardware.iop@2.0.so:system/lib64/vendor.qti.hardware.iop@2.0.so \
     vendor/xiaomi/land/proprietary/lib64/vendor.qti.hardware.perf@1.0.so:system/lib64/vendor.qti.hardware.perf@1.0.so \
@@ -1139,13 +1129,11 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/bin/btnvtool:system/vendor/bin/btnvtool \
     vendor/xiaomi/land/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/xiaomi/land/proprietary/vendor/bin/dpmQmiMgr:system/vendor/bin/dpmQmiMgr \
-    vendor/xiaomi/land/proprietary/vendor/bin/hbtp_daemon:system/vendor/bin/hbtp_daemon \
     vendor/xiaomi/land/proprietary/vendor/bin/hci_qcomm_init:system/vendor/bin/hci_qcomm_init \
     vendor/xiaomi/land/proprietary/vendor/bin/hvdcp_opti:system/vendor/bin/hvdcp_opti \
     vendor/xiaomi/land/proprietary/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti:system/vendor/bin/hw/android.hardware.bluetooth@1.0-service-qti \
     vendor/xiaomi/land/proprietary/vendor/bin/hw/android.hardware.drm@1.0-service.widevine:system/vendor/bin/hw/android.hardware.drm@1.0-service.widevine \
     vendor/xiaomi/land/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:system/vendor/bin/hw/vendor.display.color@1.0-service \
-    vendor/xiaomi/land/proprietary/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service:system/vendor/bin/hw/vendor.qti.esepowermanager@1.0-service \
     vendor/xiaomi/land/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
     vendor/xiaomi/land/proprietary/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service:system/vendor/bin/hw/vendor.qti.hardware.perf@1.0-service \
     vendor/xiaomi/land/proprietary/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti:system/vendor/bin/hw/vendor.qti.hardware.qdutils_disp@1.0-service-qti \
@@ -1200,24 +1188,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/xiaomi/land/proprietary/vendor/etc/drc/drc_cfg_5.1.txt:system/vendor/etc/drc/drc_cfg_5.1.txt \
     vendor/xiaomi/land/proprietary/vendor/etc/drc/drc_cfg_AZ.txt:system/vendor/etc/drc/drc_cfg_AZ.txt \
-    vendor/xiaomi/land/proprietary/vendor/etc/hbtp/hbtpcfg.dat:system/vendor/etc/hbtp/hbtpcfg.dat \
-    vendor/xiaomi/land/proprietary/vendor/etc/hbtp/hbtpcfg2.dat:system/vendor/etc/hbtp/hbtpcfg2.dat \
-    vendor/xiaomi/land/proprietary/vendor/etc/hbtp/hbtpcfg_msm8937_800s_fhd.dat:system/vendor/etc/hbtp/hbtpcfg_msm8937_800s_fhd.dat \
-    vendor/xiaomi/land/proprietary/vendor/etc/hbtp/qtc800h.bin:system/vendor/etc/hbtp/qtc800h.bin \
-    vendor/xiaomi/land/proprietary/vendor/etc/hbtp/qtc800s_dsp.bin:system/vendor/etc/hbtp/qtc800s_dsp.bin \
     vendor/xiaomi/land/proprietary/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc:system/vendor/etc/init/android.hardware.bluetooth@1.0-service-qti.rc \
     vendor/xiaomi/land/proprietary/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc:system/vendor/etc/init/android.hardware.drm@1.0-service.widevine.rc \
     vendor/xiaomi/land/proprietary/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc:system/vendor/etc/init/com.qualcomm.qti.wifidisplayhal@1.0-service.rc \
     vendor/xiaomi/land/proprietary/vendor/etc/init/vendor.display.color@1.0-service.rc:system/vendor/etc/init/vendor.display.color@1.0-service.rc \
-    vendor/xiaomi/land/proprietary/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc:system/vendor/etc/init/vendor.qti.esepowermanager@1.0-service.rc \
     vendor/xiaomi/land/proprietary/vendor/etc/init/vendor.qti.gnss@1.0-service.rc:system/vendor/etc/init/vendor.qti.gnss@1.0-service.rc \
     vendor/xiaomi/land/proprietary/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.perf@1.0-service.rc \
     vendor/xiaomi/land/proprietary/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.qdutils_disp@1.0-service-qti.rc \
     vendor/xiaomi/land/proprietary/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc:system/vendor/etc/init/vendor.qti.hardware.qteeconnector@1.0-service.rc \
     vendor/xiaomi/land/proprietary/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc:system/vendor/etc/init/vendor.qti.hardware.tui_comm@1.0-service-qti.rc \
     vendor/xiaomi/land/proprietary/vendor/etc/perf/gamedwhitelist.xml:system/vendor/etc/perf/gamedwhitelist.xml \
-    vendor/xiaomi/land/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_5.1.cfg \
-    vendor/xiaomi/land/proprietary/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg:system/vendor/etc/surround_sound_3mic/surround_sound_rec_AZ.cfg \
     vendor/xiaomi/land/proprietary/vendor/etc/thermal-engine.conf:system/vendor/etc/thermal-engine.conf \
     vendor/xiaomi/land/proprietary/vendor/etc/xtra_root_cert.pem:system/vendor/etc/xtra_root_cert.pem \
     vendor/xiaomi/land/proprietary/vendor/firmware/a530_gpmu.fw2:system/vendor/firmware/a530_gpmu.fw2 \
@@ -1257,7 +1237,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/hw/gatekeeper.msm8937.so:system/vendor/lib/hw/gatekeeper.msm8937.so \
     vendor/xiaomi/land/proprietary/vendor/lib/hw/keystore.msm8937.so:system/vendor/lib/hw/keystore.msm8937.so \
     vendor/xiaomi/land/proprietary/vendor/lib/hw/sound_trigger.primary.msm8937.so:system/vendor/lib/hw/sound_trigger.primary.msm8937.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so:system/vendor/lib/hw/vendor.qti.esepowermanager@1.0-impl.so \
     vendor/xiaomi/land/proprietary/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/xiaomi/land/proprietary/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/xiaomi/land/proprietary/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so:system/vendor/lib/hw/vendor.qti.hardware.iop@1.0-impl.so \
@@ -1351,11 +1330,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/libflp.so:system/vendor/lib/libflp.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libgdtap.so:system/vendor/lib/libgdtap.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libgeofence.so:system/vendor/lib/libgeofence.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/libgnsspps.so:system/vendor/lib/libgnsspps.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libgsl.so:system/vendor/lib/libgsl.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/libhbtpclient.so:system/vendor/lib/libhbtpclient.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/libhbtpdsp.so:system/vendor/lib/libhbtpdsp.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/libhbtpfrmwk.so:system/vendor/lib/libhbtpfrmwk.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libhdr_tm.so:system/vendor/lib/libhdr_tm.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libidl.so:system/vendor/lib/libidl.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libizat_client_api.so:system/vendor/lib/libizat_client_api.so \
@@ -1431,7 +1406,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libsmwrapper.so:system/vendor/lib/libsmwrapper.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libssd.so:system/vendor/lib/libssd.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/libsurround_3mic_proc.so:system/vendor/lib/libsurround_3mic_proc.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libswvdec.so:system/vendor/lib/libswvdec.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libsystem_health_mon.so:system/vendor/lib/libsystem_health_mon.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libtinyxml2_1.so:system/vendor/lib/libtinyxml2_1.so \
@@ -1463,17 +1437,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/soundfx/libshoebox.so:system/vendor/lib/soundfx/libshoebox.so \
     vendor/xiaomi/land/proprietary/vendor/lib/vendor.display.color@1.0_vendor.so:system/vendor/lib/vendor.display.color@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib/vendor.display.postproc@1.0_vendor.so:system/vendor/lib/vendor.display.postproc@1.0_vendor.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.esepowermanager@1.0_vendor.so:system/vendor/lib/vendor.qti.esepowermanager@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib/vendor.qti.gnss@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.alarm@1.0.so:system/vendor/lib/vendor.qti.hardware.alarm@1.0.so \
     vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.data.latency@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.fm@1.0_vendor.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.improvetouch.blobmanager@1.0-service.so:system/vendor/lib/vendor.qti.hardware.improvetouch.blobmanager@1.0-service.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.improvetouch.blobmanager@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.improvetouch.blobmanager@1.0_vendor.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.improvetouch.gesturemanager@1.0-service.so:system/vendor/lib/vendor.qti.hardware.improvetouch.gesturemanager@1.0-service.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.improvetouch.gesturemanager@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.improvetouch.gesturemanager@1.0_vendor.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so:system/vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.improvetouch.touchcompanion@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.iop@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.iop@2.0_vendor.so:system/vendor/lib/vendor.qti.hardware.iop@2.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib/vendor.qti.hardware.perf@1.0_vendor.so \
@@ -1520,7 +1487,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/hw/gatekeeper.msm8937.so:system/vendor/lib64/hw/gatekeeper.msm8937.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/hw/keystore.msm8937.so:system/vendor/lib64/hw/keystore.msm8937.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/hw/sound_trigger.primary.msm8937.so:system/vendor/lib64/hw/sound_trigger.primary.msm8937.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.esepowermanager@1.0-impl.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.gnss@1.0-impl.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.fm@1.0-impl.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so:system/vendor/lib64/hw/vendor.qti.hardware.iop@1.0-impl.so \
@@ -1607,11 +1573,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/libflp.so:system/vendor/lib64/libflp.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libgdtap.so:system/vendor/lib64/libgdtap.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libgeofence.so:system/vendor/lib64/libgeofence.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/libgnsspps.so:system/vendor/lib64/libgnsspps.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libgsl.so:system/vendor/lib64/libgsl.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/libhbtpclient.so:system/vendor/lib64/libhbtpclient.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/libhbtpdsp.so:system/vendor/lib64/libhbtpdsp.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/libhbtpfrmwk.so:system/vendor/lib64/libhbtpfrmwk.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libhdr_tm.so:system/vendor/lib64/libhdr_tm.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libidl.so:system/vendor/lib64/libidl.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libizat_client_api.so:system/vendor/lib64/libizat_client_api.so \
@@ -1706,17 +1668,10 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/soundfx/libshoebox.so:system/vendor/lib64/soundfx/libshoebox.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/vendor.display.color@1.0_vendor.so:system/vendor/lib64/vendor.display.color@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/vendor.display.postproc@1.0_vendor.so:system/vendor/lib64/vendor.display.postproc@1.0_vendor.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.esepowermanager@1.0_vendor.so:system/vendor/lib64/vendor.qti.esepowermanager@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib64/vendor.qti.gnss@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.alarm@1.0.so:system/vendor/lib64/vendor.qti.hardware.alarm@1.0.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.data.latency@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.fm@1.0_vendor.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0-service.so:system/vendor/lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0-service.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.improvetouch.blobmanager@1.0_vendor.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.improvetouch.gesturemanager@1.0-service.so:system/vendor/lib64/vendor.qti.hardware.improvetouch.gesturemanager@1.0-service.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.improvetouch.gesturemanager@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.improvetouch.gesturemanager@1.0_vendor.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so:system/vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0-service.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.improvetouch.touchcompanion@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.iop@1.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.iop@2.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.iop@2.0_vendor.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so:system/vendor/lib64/vendor.qti.hardware.perf@1.0_vendor.so \
