@@ -985,22 +985,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
     vendor/xiaomi/land/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/xiaomi/land/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
-    vendor/xiaomi/land/proprietary/vendor/firmware/cppf.b00:system/vendor/firmware/cppf.b00 \
-    vendor/xiaomi/land/proprietary/vendor/firmware/cppf.b01:system/vendor/firmware/cppf.b01 \
-    vendor/xiaomi/land/proprietary/vendor/firmware/cppf.b02:system/vendor/firmware/cppf.b02 \
-    vendor/xiaomi/land/proprietary/vendor/firmware/cppf.b03:system/vendor/firmware/cppf.b03 \
-    vendor/xiaomi/land/proprietary/vendor/firmware/cppf.b04:system/vendor/firmware/cppf.b04 \
-    vendor/xiaomi/land/proprietary/vendor/firmware/cppf.b05:system/vendor/firmware/cppf.b05 \
-    vendor/xiaomi/land/proprietary/vendor/firmware/cppf.b06:system/vendor/firmware/cppf.b06 \
-    vendor/xiaomi/land/proprietary/vendor/firmware/cppf.mdt:system/vendor/firmware/cppf.mdt \
-    vendor/xiaomi/land/proprietary/vendor/firmware/widevine.b00:system/vendor/firmware/widevine.b00 \
-    vendor/xiaomi/land/proprietary/vendor/firmware/widevine.b01:system/vendor/firmware/widevine.b01 \
-    vendor/xiaomi/land/proprietary/vendor/firmware/widevine.b02:system/vendor/firmware/widevine.b02 \
-    vendor/xiaomi/land/proprietary/vendor/firmware/widevine.b03:system/vendor/firmware/widevine.b03 \
-    vendor/xiaomi/land/proprietary/vendor/firmware/widevine.b04:system/vendor/firmware/widevine.b04 \
-    vendor/xiaomi/land/proprietary/vendor/firmware/widevine.b05:system/vendor/firmware/widevine.b05 \
-    vendor/xiaomi/land/proprietary/vendor/firmware/widevine.b06:system/vendor/firmware/widevine.b06 \
-    vendor/xiaomi/land/proprietary/vendor/firmware/widevine.mdt:system/vendor/firmware/widevine.mdt \
     vendor/xiaomi/land/proprietary/etc/init/dpmd.rc:system/etc/init/dpmd.rc \
     vendor/xiaomi/land/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
@@ -1011,7 +995,9 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/etc/permissions/com.qualcomm.qti.imscmservice_1_1.xml:system/etc/permissions/com.qualcomm.qti.imscmservice_1_1.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
+    vendor/xiaomi/land/proprietary/etc/permissions/embms.xml:system/etc/permissions/embms.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
+    vendor/xiaomi/land/proprietary/etc/permissions/lpa.xml:system/etc/permissions/lpa.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/qti-vzw-ims-internal.xml:system/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/xiaomi/land/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
@@ -1353,7 +1339,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/libmm-qdcm.so:system/vendor/lib/libmm-qdcm.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libmmosal_proprietary.so:system/vendor/lib/libmmosal_proprietary.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libnetmgr.so:system/vendor/lib/libnetmgr.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/liboemcrypto.so:system/vendor/lib/liboemcrypto.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libomx-dts.so:system/vendor/lib/libomx-dts.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libpdmapper.so:system/vendor/lib/libpdmapper.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libpdnotifier.so:system/vendor/lib/libpdnotifier.so \
@@ -1373,7 +1358,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libqmiservices.so:system/vendor/lib/libqmiservices.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libqti-iopd-client.so:system/vendor/lib/libqti-iopd-client.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/libqti-iopd.so:system/vendor/lib/libqti-iopd.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libqti-perfd-client.so:system/vendor/lib/libqti-perfd-client.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libqti-perfd.so:system/vendor/lib/libqti-perfd.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libqti-util.so:system/vendor/lib/libqti-util.so \
@@ -1396,7 +1380,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/libsecureui_svcsock.so:system/vendor/lib/libsecureui_svcsock.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libsensor1.so:system/vendor/lib/libsensor1.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    vendor/xiaomi/land/proprietary/vendor/lib/libsensor_thresh.so:system/vendor/lib/libsensor_thresh.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libsensor_user_cal.so:system/vendor/lib/libsensor_user_cal.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libsettings.so:system/vendor/lib/libsettings.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
@@ -1616,7 +1599,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libqti-iopd-client.so:system/vendor/lib64/libqti-iopd-client.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/libqti-iopd.so:system/vendor/lib64/libqti-iopd.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libqti-perfd.so:system/vendor/lib64/libqti-perfd.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libqti-util.so:system/vendor/lib64/libqti-util.so \
@@ -1639,7 +1621,6 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/libsecureui_svcsock.so:system/vendor/lib64/libsecureui_svcsock.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libsensor1.so:system/vendor/lib64/libsensor1.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libsensor_reg.so:system/vendor/lib64/libsensor_reg.so \
-    vendor/xiaomi/land/proprietary/vendor/lib64/libsensor_thresh.so:system/vendor/lib64/libsensor_thresh.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libsensor_user_cal.so:system/vendor/lib64/libsensor_user_cal.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libsettings.so:system/vendor/lib64/libsettings.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libslimclient.so:system/vendor/lib64/libslimclient.so \
@@ -1710,6 +1691,7 @@ PRODUCT_PACKAGES += \
     libtime_genoff \
     QtiTelephonyService \
     datastatusnotification \
+    embms \
     ims \
     imssettings \
     uceShimService \
@@ -1727,9 +1709,12 @@ PRODUCT_PACKAGES += \
     com.qualcomm.qti.imscmservice@1.1-java \
     com.quicinc.cne.api-V1.0-java \
     com.quicinc.cne \
+    embmslibrary \
     izat.xt.srv \
     qcrilhook \
     qti-telephony-common \
+    uimlpalibrary \
+    uimremotesimlocklibrary \
     qti-vzw-ims-internal \
     vendor.qti.hardware.alarm-V1.0-java \
     vendor.qti.hardware.sensorscalibrate-V1.0-java
