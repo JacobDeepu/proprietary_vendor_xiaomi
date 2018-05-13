@@ -1347,6 +1347,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/libperipheral_client.so:system/vendor/lib/libperipheral_client.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libqcmaputils.so:system/vendor/lib/libqcmaputils.so \
+    vendor/xiaomi/land/proprietary/vendor/lib/libqcrilFramework.so:system/vendor/lib/libqcrilFramework.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libqdp.so:system/vendor/lib/libqdp.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libqisl.so:system/vendor/lib/libqisl.so \
@@ -1364,6 +1365,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib/libqti-util.so:system/vendor/lib/libqti-util.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libqtigef.so:system/vendor/lib/libqtigef.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
+    vendor/xiaomi/land/proprietary/vendor/lib/libril-qc-hal-qmi.so:system/vendor/lib/libril-qc-hal-qmi.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libril-qc-ltedirectdisc.so:system/vendor/lib/libril-qc-ltedirectdisc.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libril-qc-qmi-1.so:system/vendor/lib/libril-qc-qmi-1.so \
     vendor/xiaomi/land/proprietary/vendor/lib/libril-qc-radioconfig.so:system/vendor/lib/libril-qc-radioconfig.so \
@@ -1588,6 +1590,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/libperipheral_client.so:system/vendor/lib64/libperipheral_client.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libqcmaputils.so:system/vendor/lib64/libqcmaputils.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/libqcrilFramework.so:system/vendor/lib64/libqcrilFramework.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libqdi.so:system/vendor/lib64/libqdi.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
@@ -1605,6 +1608,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/lib64/libqti-util.so:system/vendor/lib64/libqti-util.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libqtigef.so:system/vendor/lib64/libqtigef.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
+    vendor/xiaomi/land/proprietary/vendor/lib64/libril-qc-hal-qmi.so:system/vendor/lib64/libril-qc-hal-qmi.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
     vendor/xiaomi/land/proprietary/vendor/lib64/libril-qc-radioconfig.so:system/vendor/lib64/libril-qc-radioconfig.so \
