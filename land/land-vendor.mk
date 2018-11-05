@@ -983,10 +983,7 @@ PRODUCT_COPY_FILES += \
 
 PRODUCT_PACKAGES += \
     libts_detected_face_hal \
-    libts_face_beautify_hal \
-    qdcm_calib_data_hx8394F_HD720p_video_BOE \
-    qdcm_calib_data_ili9881c_HD720p_video_Tianma \
-    qdcm_calib_data_nt35521s_HD720p_video_EBBG
+    libts_face_beautify_hal
 
 PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/bin/dpmd:system/bin/dpmd \
