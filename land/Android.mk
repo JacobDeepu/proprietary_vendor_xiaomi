@@ -42,17 +42,6 @@ LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := libantradio
-LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES_64 := proprietary/lib64/libantradio.so
-LOCAL_SRC_FILES_32 := proprietary/lib/libantradio.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.qti.hardware.fm@1.0
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES_64 := proprietary/lib64/vendor.qti.hardware.fm@1.0.so
@@ -61,66 +50,6 @@ LOCAL_MULTILIB := both
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := SHARED_LIBRARIES
 LOCAL_MODULE_SUFFIX := .so
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.api@1.0
-LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/com.quicinc.cne.api@1.0.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.constants@1.0
-LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/com.quicinc.cne.constants@1.0.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.constants@2.0
-LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/com.quicinc.cne.constants@2.0.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/com.quicinc.cne.constants@2.0.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.server@1.0
-LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/com.quicinc.cne.server@1.0.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/com.quicinc.cne.server@1.0.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := com.quicinc.cne.server@2.0
-LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES_64 := proprietary/vendor/lib64/com.quicinc.cne.server@2.0.so
-LOCAL_SRC_FILES_32 := proprietary/vendor/lib/com.quicinc.cne.server@2.0.so
-LOCAL_MULTILIB := both
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
@@ -195,17 +124,6 @@ LOCAL_MODULE_SUFFIX := .apk
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := ims
-LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/app/ims/ims.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := imssettings
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES := proprietary/app/imssettings/imssettings.apk
@@ -264,6 +182,18 @@ LOCAL_PRIVILEGED_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := ims
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES := proprietary/priv-app/ims/ims.apk
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := APPS
+LOCAL_DEX_PREOPT := false
+LOCAL_MODULE_SUFFIX := .apk
+LOCAL_PRIVILEGED_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := qcrilmsgtunnel
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES := proprietary/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk
@@ -291,18 +221,6 @@ include $(CLEAR_VARS)
 LOCAL_MODULE := TimeService
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES := proprietary/vendor/app/TimeService/TimeService.apk
-LOCAL_CERTIFICATE := platform
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_CLASS := APPS
-LOCAL_DEX_PREOPT := false
-LOCAL_MODULE_SUFFIX := .apk
-LOCAL_VENDOR_MODULE := true
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
-LOCAL_MODULE := colorservice
-LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/vendor/app/colorservice/colorservice.apk
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := APPS
@@ -352,9 +270,9 @@ LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := com.qualcomm.qti.imscmservice@1.0-java
+LOCAL_MODULE := com.qualcomm.qti.imscmservice-V2.0-java
 LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/framework/com.qualcomm.qti.imscmservice@1.0-java.jar
+LOCAL_SRC_FILES := proprietary/framework/com.qualcomm.qti.imscmservice-V2.0-java.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -362,9 +280,19 @@ LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := com.qualcomm.qti.imscmservice@1.1-java
+LOCAL_MODULE := com.qualcomm.qti.imscmservice-V2.1-java
 LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/framework/com.qualcomm.qti.imscmservice@1.1-java.jar
+LOCAL_SRC_FILES := proprietary/framework/com.qualcomm.qti.imscmservice-V2.1-java.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.qualcomm.qti.uceservice-V2.0-java
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES := proprietary/framework/com.qualcomm.qti.uceservice-V2.0-java.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -382,9 +310,89 @@ LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
+LOCAL_MODULE := com.quicinc.cne.api-V1.1-java
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.api-V1.1-java.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.quicinc.cne.constants-V1.0-java
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.constants-V1.0-java.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.quicinc.cne.constants-V2.0-java
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.constants-V2.0-java.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.quicinc.cne.constants-V2.1-java
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.constants-V2.1-java.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
 LOCAL_MODULE := com.quicinc.cne
 LOCAL_MODULE_OWNER := xiaomi
 LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.quicinc.cne.server-V1.0-java
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.server-V1.0-java.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.quicinc.cne.server-V2.0-java
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.server-V2.0-java.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.quicinc.cne.server-V2.1-java
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.server-V2.1-java.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := com.quicinc.cne.server-V2.2-java
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES := proprietary/framework/com.quicinc.cne.server-V2.2-java.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
@@ -452,36 +460,93 @@ LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := qti-vzw-ims-internal
+LOCAL_MODULE := vendor.qti.data.factory-V1.0-java
 LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/vendor/framework/qti-vzw-ims-internal.jar
+LOCAL_SRC_FILES := proprietary/framework/vendor.qti.data.factory-V1.0-java.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
-LOCAL_VENDOR_MODULE := true
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.qti.hardware.alarm-V1.0-java
 LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/vendor/framework/vendor.qti.hardware.alarm-V1.0-java.jar
+LOCAL_SRC_FILES := proprietary/framework/vendor.qti.hardware.alarm-V1.0-java.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
-LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := vendor.qti.hardware.data.dynamicdds-V1.0-java
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES := proprietary/framework/vendor.qti.hardware.data.dynamicdds-V1.0-java.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := vendor.qti.hardware.data.latency-V1.0-java
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES := proprietary/framework/vendor.qti.hardware.data.latency-V1.0-java.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := vendor.qti.hardware.data.qmi-V1.0-java
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES := proprietary/framework/vendor.qti.hardware.data.qmi-V1.0-java.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 include $(CLEAR_VARS)
 LOCAL_MODULE := vendor.qti.hardware.sensorscalibrate-V1.0-java
 LOCAL_MODULE_OWNER := xiaomi
-LOCAL_SRC_FILES := proprietary/vendor/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
+LOCAL_SRC_FILES := proprietary/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar
 LOCAL_CERTIFICATE := platform
 LOCAL_MODULE_TAGS := optional
 LOCAL_MODULE_CLASS := JAVA_LIBRARIES
 LOCAL_MODULE_SUFFIX := .jar
-LOCAL_VENDOR_MODULE := true
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := vendor.qti.ims.callinfo-V1.0-java
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES := proprietary/framework/vendor.qti.ims.callinfo-V1.0-java.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := vendor.qti.ims.rcsconfig-V1.0-java
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES := proprietary/framework/vendor.qti.ims.rcsconfig-V1.0-java.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
+include $(BUILD_PREBUILT)
+
+include $(CLEAR_VARS)
+LOCAL_MODULE := vendor.qti.latency-V2.0-java
+LOCAL_MODULE_OWNER := xiaomi
+LOCAL_SRC_FILES := proprietary/framework/vendor.qti.latency-V2.0-java.jar
+LOCAL_CERTIFICATE := platform
+LOCAL_MODULE_TAGS := optional
+LOCAL_MODULE_CLASS := JAVA_LIBRARIES
+LOCAL_MODULE_SUFFIX := .jar
 include $(BUILD_PREBUILT)
 
 endif
