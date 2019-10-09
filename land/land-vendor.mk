@@ -1127,6 +1127,7 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/product/etc/permissions/dpmapi.xml:$(TARGET_COPY_OUT_PRODUCT)/etc/permissions/dpmapi.xml \
     vendor/xiaomi/land/proprietary/product/framework/com.qti.dpmframework.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/com.qti.dpmframework.jar \
     vendor/xiaomi/land/proprietary/product/framework/dpmapi.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/dpmapi.jar \
+    vendor/xiaomi/land/proprietary/product/framework/qti-telephony-common.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/qti-telephony-common.jar \
     vendor/xiaomi/land/proprietary/product/framework/tcmclient.jar:$(TARGET_COPY_OUT_PRODUCT)/framework/tcmclient.jar \
     vendor/xiaomi/land/proprietary/product/lib/com.qualcomm.qti.dpm.api@1.0.so:$(TARGET_COPY_OUT_PRODUCT)/lib/com.qualcomm.qti.dpm.api@1.0.so \
     vendor/xiaomi/land/proprietary/product/lib64/libaptXHD_encoder.so:$(TARGET_COPY_OUT_PRODUCT)/lib64/libaptXHD_encoder.so \
@@ -1798,7 +1799,6 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.server-V2.2-java \
     embmslibrary \
     qcrilhook \
-    qti-telephony-common \
     uimlpalibrary \
     uimremotesimlocklibrary \
     vendor.qti.data.factory-V1.0-java \
