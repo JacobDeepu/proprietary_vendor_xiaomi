@@ -50,38 +50,38 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Hdmi_cal.acdb \
     vendor/xiaomi/land/proprietary/vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Headset_cal.acdb \
     vendor/xiaomi/land/proprietary/vendor/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb:$(TARGET_COPY_OUT_VENDOR)/etc/acdbdata/QRD/msm8952-sku2-snd-card/QRD_SKU2_Speaker_cal.acdb \
-    vendor/xiaomi/land/proprietary/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/csidtg_camera.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/csidtg_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/imx214_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx214_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/imx230_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx230_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/imx230_qc2002_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx230_qc2002_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/imx258_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx258_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/imx298_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/imx298_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/msm8937_camera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/msm8937_camera.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/msm8952_camera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/msm8952_camera.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/msm8996_camera.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/msm8996_camera.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/ofilm_s5k5e8_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ofilm_s5k5e8_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/ov13850_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov13850_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/ov13850_q13v06k_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov13850_q13v06k_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/ov13853_q13853a_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov13853_q13853a_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/ov4688_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov4688_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/ov5670_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov5670_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/ov5670_f5670bq_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov5670_f5670bq_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/ov8858_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov8858_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/ov8865_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/ov8865_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/plus_ov5670_f5670bq_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/plus_ov5670_f5670bq_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/qtech_s5k3l8_f3l8yam_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/qtech_s5k3l8_f3l8yam_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/s5k3l8_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/s5k3l8_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/s5k3l8_f3l8yam_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/s5k3l8_f3l8yam_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/s5k3l8_f3l8yam_new_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/s5k3l8_f3l8yam_new_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/s5k3l8_mono_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/s5k3l8_mono_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/s5k3m2xm_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/s5k3m2xm_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/s5k3m2xm_chromatix_bear.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/s5k3m2xm_chromatix_bear.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/s5k3m2xx_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/s5k3m2xx_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/s5k5e8_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/s5k5e8_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/sunny_ov5670_f5670bq_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/sunny_ov5670_f5670bq_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml \
-    vendor/xiaomi/land/proprietary/etc/camera/sunny_s5k3l8_f3l8yam_new_chromatix.xml:$(TARGET_COPY_OUT_SYSTEM)/etc/camera/sunny_s5k3l8_f3l8yam_new_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/csidtg_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_camera.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/csidtg_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/csidtg_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/imx214_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx214_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/imx230_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx230_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/imx230_qc2002_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx230_qc2002_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/imx258_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx258_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/imx298_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/imx298_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/msm8937_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8937_camera.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/msm8952_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8952_camera.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/msm8996_camera.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/msm8996_camera.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/ofilm_s5k5e8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ofilm_s5k5e8_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/ov13850_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13850_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/ov13850_q13v06k_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13850_q13v06k_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/ov13853_q13853a_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov13853_q13853a_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/ov4688_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov4688_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/ov5670_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov5670_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/ov5670_f5670bq_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov5670_f5670bq_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/ov8858_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov8858_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/ov8865_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/ov8865_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/plus_ov5670_f5670bq_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/plus_ov5670_f5670bq_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/qtech_s5k3l8_f3l8yam_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/qtech_s5k3l8_f3l8yam_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/s5k3l8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/s5k3l8_f3l8yam_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_f3l8yam_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/s5k3l8_f3l8yam_new_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_f3l8yam_new_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/s5k3l8_mono_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3l8_mono_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/s5k3m2xm_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m2xm_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/s5k3m2xm_chromatix_bear.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m2xm_chromatix_bear.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/s5k3m2xx_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k3m2xx_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/s5k5e8_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/s5k5e8_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/sunny_ov5670_f5670bq_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sunny_ov5670_f5670bq_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sunny_s5k3l8_f3l8yam_chromatix.xml \
+    vendor/xiaomi/land/proprietary/vendor/etc/camera/sunny_s5k3l8_f3l8yam_new_chromatix.xml:$(TARGET_COPY_OUT_VENDOR)/etc/camera/sunny_s5k3l8_f3l8yam_new_chromatix.xml \
     vendor/xiaomi/land/proprietary/vendor/firmware/DE.o.msm8937:$(TARGET_COPY_OUT_VENDOR)/firmware/DE.o.msm8937 \
     vendor/xiaomi/land/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_10_0.fw \
     vendor/xiaomi/land/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:$(TARGET_COPY_OUT_VENDOR)/firmware/cpp_firmware_v1_1_1.fw \
