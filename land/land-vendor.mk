@@ -102,11 +102,16 @@ PRODUCT_COPY_FILES += \
     vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537AB1/cu_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537AB1/cu_mcfg_sw.mbn \
     vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537AB1/row_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537AB1/row_mcfg_sw.mbn \
     vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537BA1/row_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537BA1/row_mcfg_sw.mbn \
+    vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537BA1/uae_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537BA1/uae_mcfg_sw.mbn \
     vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537BA1/ytl_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537BA1/ytl_mcfg_sw.mbn \
+    vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537CA1/airtel_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537CA1/airtel_mcfg_sw.mbn \
     vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537CA1/reliance_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537CA1/reliance_mcfg_sw.mbn \
     vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537CA1/row_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537CA1/row_mcfg_sw.mbn \
+    vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537CA1/vodafone_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537CA1/vodafone_mcfg_sw.mbn \
+    vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537EC1/airtel_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537EC1/airtel_mcfg_sw.mbn \
     vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537EC1/reliance_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537EC1/reliance_mcfg_sw.mbn \
     vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537EC1/row_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537EC1/row_mcfg_sw.mbn \
+    vendor/xiaomi/land/proprietary/vendor/firmware/modem_config/S88537EC1/vodafone_mcfg_sw.mbn:$(TARGET_COPY_OUT_VENDOR)/firmware/modem_config/S88537EC1/vodafone_mcfg_sw.mbn \
     vendor/xiaomi/land/proprietary/vendor/etc/ft5336_biel_720p.ini:$(TARGET_COPY_OUT_VENDOR)/etc/ft5336_biel_720p.ini \
     vendor/xiaomi/land/proprietary/vendor/etc/ft5336_lens_720p.ini:$(TARGET_COPY_OUT_VENDOR)/etc/ft5336_lens_720p.ini \
     vendor/xiaomi/land/proprietary/vendor/etc/ft5336_oufei_720p.ini:$(TARGET_COPY_OUT_VENDOR)/etc/ft5336_oufei_720p.ini \
